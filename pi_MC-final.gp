@@ -98,7 +98,7 @@ set arrow from 0,y_min to n_batch*1.05, y_min lw 3 lt -1              #xaxis
 set arrow from 0,y_min to 0, y_min+dy lw 3 lt -1                      #yaxis
 
 set label " {/Symbol p} calculator " at n_batch/2.0,func_shift(0.07) center
-set label " hit any key to kegin " at n_batch/2.0,func_shift(-0.07) center
+set label " hit any key to begin " at n_batch/2.0,func_shift(-0.07) center
 plot \
 l(x)*fac w l lw 3 lt -1 t "",\
       f( 2.0*(x-0.1*n_batch)/(0.8*n_batch)-1.0 )+func_shift(0.0) w l lw 3 lt -1 t "",\
