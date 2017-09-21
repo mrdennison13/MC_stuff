@@ -11,4 +11,5 @@ This is proportional to pi
 onsager_B2.ipynb
 ----------------
 A python notebook showing the importance of vectorizing our code when calculating of the second virial coefficient (using MC integration). We get a speed up of 100X when we do, compared to using a loop based approach.
-B2_L5d0_D1d0-race-csv.dat is required for the final plots
+ - B2_L5d0_D1d0-race-csv.dat is required for the final plots
+ - onsager_B2.cpython-35m-darwin.so contains the module which uses a fortran program to calculate B2
